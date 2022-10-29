@@ -1,0 +1,90 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.193);
+}
+
+.info {
+  display: flex;
+  width: 50%;
+  font-size: 15px;
+  justify-content: space-between;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(85, 85, 224);
+}
+
+.null {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  max-height: 420px;
+  color: rgb(245, 124, 3);
+}
+.actions {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.increase {
+  background-color: rgb(27, 27, 93);
+  border-radius: 6px;
+  color: white;
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+}
+
+.decrease {
+  background-color: rgb(245, 124, 3);
+  border-radius: 6px;
+  color: white;
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+}
+
+.reset {
+  background-color: gray;
+  border-radius: 6px;
+  color: white;
+  padding: 6px;
+  width: 20%;
+  text-align: center;
+}
+
+.first {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 8px;
+}
+.first :first-child {
+  font-size: 32px;
+}
+.second {
+  font-size: 14px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  align-items: center;
+  color: rgba(128, 128, 128, 0.679);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
